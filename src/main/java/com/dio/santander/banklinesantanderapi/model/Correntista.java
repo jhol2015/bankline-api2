@@ -19,6 +19,10 @@ public class Correntista {
         return conta;
     }
 
+    public void setConta(Conta conta) {
+        this.conta = conta;
+    }
+
     public Integer getId() {
         return id;
     }
